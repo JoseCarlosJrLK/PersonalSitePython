@@ -2930,7 +2930,7 @@
 			background: rgba(75, 75, 93, 0.85);
 			position: absolute;
 			width: 100%;
-			height: 100%;
+			height: 90%;
 			top: 0;
 			left: 0;
 		}
@@ -3163,10 +3163,10 @@ footer {
 .footer-list-header {
   padding: 10px 0 5px 0;
   color: #fff;
-  font: 2.3vw "Oswald", sans-serif
+  font: 1.3vw "Oswald", sans-serif
 }
 .footer-list-anchor {
-  font: 1.3em "Open Sans", sans-serif
+  font: 1em "Open Sans", sans-serif
 }
 .footer-social-section {
   width: 100%;
@@ -3193,7 +3193,7 @@ footer {
 .footer-social-connect {
   display: flex;
   align-items: center;
-  font: 3.5em "Oswald", sans-serif;
+  font: 2em "Oswald", sans-serif;
   color: #fff
 }
 .footer-social-small {
@@ -3201,7 +3201,7 @@ footer {
   padding: 0px 20px
 }
 .footer-social-overlap > a {
-  font-size: 3em
+  font-size: 2em
 }
 .footer-social-overlap > a:not(:first-child) {
   margin-left: 0.38em
@@ -3310,4 +3310,8 @@ footer {
   .footer-bottom-wrapper {
     font-size: 1.3em
   }
+}
+
+#tamanho {
+    font-size: 1em
 }
