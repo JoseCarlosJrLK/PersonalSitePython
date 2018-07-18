@@ -1,38 +1,40 @@
-{% extends "base.html"%}
-{% block content %}
+{% extends "footer.html"%}
+{% block casetop %}
 {% load static %}
+
+
 <!-- Banner -->
 	<section id="banner">
-		<h2>Bem Vindo a Revolução</h2>
 		<div class="inner">
 			<header>
-				<h1>Consultoria Especializada</h1>
-
+				<h1>Welcome to Projection</h1>
 			</header>
+
 			<div class="flex ">
+
 				<div>
-					<span class="icon fa-book"></span>
-					<h3>Noticias</h3>
+					<span class="icon fa-car"></span>
+					<h3>Aliquam</h3>
 					<p>Suspendisse amet ullamco</p>
 				</div>
 
 				<div>
-					<span class="icon fa-tv"></span>
-					<h3>Tencnologias</h3>
+					<span class="icon fa-camera"></span>
+					<h3>Elementum</h3>
 					<p>Class aptent taciti ad litora</p>
 				</div>
 
 				<div>
-					<span class="icon fa-check"></span>
-					<h3>Soluções</h3>
+					<span class="icon fa-bug"></span>
+					<h3>Ultrices</h3>
 					<p>Nulla vitae mauris non felis</p>
 				</div>
 
 			</div>
 
-			<div>
+			<footer>
 				<a href="#" class="button">Get Started</a>
-			</div>
+			</footer>
 		</div>
 	</section>
 
@@ -43,15 +45,15 @@
 			<div class="flex flex-2">
 				<article>
 					<div class="image round">
-						<img  height="240px" width="240px" src="{% static 'images/pic01.jpg' %}" alt="Pic 01" />
+						<img height="240px" width="240px" src="{% static 'images/pic01.jpg' %}" alt="Pic 01" />
 					</div>
 					<header>
 						<h3>Lorem ipsum<br /> dolor amet nullam</h3>
 					</header>
 					<p>Morbi in sem quis dui placerat ornare. Pellentesquenisi<br />euismod in, pharetra a, ultricies in diam sed arcu. Cras<br />consequat  egestas augue vulputate.</p>
-					<div>
+					<footer>
 						<a href="#" class="button">Learn More</a>
-					</div>
+					</footer>
 				</article>
 				<article>
 					<div class="image round">
@@ -61,9 +63,9 @@
 						<h3>Sed feugiat<br /> tempus adipicsing</h3>
 					</header>
 					<p>Pellentesque fermentum dolor. Aliquam quam lectus<br />facilisis auctor, ultrices ut, elementum vulputate, nunc<br /> blandit ellenste egestagus commodo.</p>
-					<div>
+					<footer>
 						<a href="#" class="button">Learn More</a>
-					</div>
+					</footer>
 				</article>
 			</div>
 		</div>
