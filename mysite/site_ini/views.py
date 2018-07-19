@@ -13,3 +13,7 @@ def generic(request):
 def contact(request):
 
     return render(request, 'contact.html')
+
+def aviso(request):
+
+    return render(request, 'aviso.html')
