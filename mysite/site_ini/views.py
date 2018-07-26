@@ -1,4 +1,5 @@
 from django.shortcuts import render
+from .forms import FormularioContato
 
 
 def home(request):
@@ -11,8 +12,17 @@ def generic(request):
 # Create your views here.
 
 def contact(request):
+    context = {}
+    if request.method == 'POST':
+        form = FormularioContato(request.POST)
+        if form.is_valid():
+            context['is_valid'] = True
+            form.send_mail()
 
-    return render(request, 'contact.html')
+    context['form'] = FormularioContato()
+
+    template_name = 'contact.html'
+    return render(request, template_name, context)
 
 def aviso(request):
 
