@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9aaf1a77-d548-440b-a140-977d88180cbe" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/site_ini/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/site_ini/static/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/static/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/site_ini/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/site_ini/templates/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/templates/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/site_ini/templates/footer.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/templates/footer.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mysite/site_ini/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mysite/site_ini/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/mysite/site_ini/views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -39,6 +31,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mysite/site_ini/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="views.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/site_ini/views.py">
           <provider selected="true" editor-type-id="text-editor">
@@ -60,7 +61,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="forms.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="forms.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mysite/site_ini/forms.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="300">
@@ -96,18 +97,18 @@
         <option value="$PROJECT_DIR$/mysite/site_ini/templates/aviso.html" />
         <option value="$PROJECT_DIR$/mysite/site_ini/templates/base.html" />
         <option value="$PROJECT_DIR$/mysite/site_ini/static/css/main.css" />
-        <option value="$PROJECT_DIR$/mysite/site_ini/templates/index.html" />
         <option value="$PROJECT_DIR$/mysite/site_ini/templates/contact.html" />
         <option value="$PROJECT_DIR$/mysite/site_ini/views.py" />
         <option value="$PROJECT_DIR$/mysite/site_ini/templates/footer.html" />
         <option value="$PROJECT_DIR$/mysite/settings.py" />
         <option value="$PROJECT_DIR$/mysite/site_ini/forms.py" />
+        <option value="$PROJECT_DIR$/mysite/site_ini/templates/index.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-285" />
-    <option name="y" value="605" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="55" />
+    <option name="y" value="144" />
     <option name="width" value="1658" />
     <option name="height" value="936" />
   </component>
@@ -182,17 +183,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="55" y="30" width="1865" height="1050" extended-state="6" />
+    <frame x="55" y="144" width="1658" height="936" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1298913" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1463564" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5005435" side_tool="true" visible="true" weight="0.29431072" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5003062" side_tool="true" visible="true" weight="0.33625" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32932165" />
       <window_info anchor="bottom" id="Python Console" order="8" weight="0.32932165" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.49945652" visible="true" weight="0.29431072" />
+      <window_info anchor="bottom" id="Terminal" order="9" sideWeight="0.4996938" visible="true" weight="0.33625" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -415,13 +416,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mysite/site_ini/templates/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/mysite/site_ini/models.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -467,6 +461,13 @@
           <folding>
             <element signature="e#0#24#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mysite/site_ini/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="59" column="40" selection-start-line="59" selection-start-column="40" selection-end-line="59" selection-end-column="40" />
         </state>
       </provider>
     </entry>
